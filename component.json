@@ -1,0 +1,11 @@
+{
+  "name": "puse",
+  "repo": "puse/puse",
+  "version": "0.0.0",
+  "styles": [
+    "index.css",
+    "style/puse.css"
+  ],
+  "author": "Mushex Antaranian",
+  "license": "MIT"
+}
