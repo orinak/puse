@@ -1,3 +1,9 @@
+# Post-process and compile with Myth
+compile: build
+	@./node_modules/.bin/myth build/index.css build/index.css \
+		--compress \
+		--verbose
+
 # Bunde up CSS with dependencies.
 build: node_modules
 	@./node_modules/.bin/duo index.css
