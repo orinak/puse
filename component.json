@@ -2,10 +2,14 @@
   "name": "puse",
   "repo": "puse/puse",
   "version": "0.0.0",
+  "main": "index.css",
   "styles": [
     "index.css",
     "style/puse.css"
   ],
+  "dependencies": {
+    "necolas/normalize.css": "^3.0.2"
+  },
   "author": "Mushex Antaranian",
   "license": "MIT"
 }
