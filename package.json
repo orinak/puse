@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/puse/puse/issues"
   },
-  "homepage": "https://github.com/puse/puse"
+  "homepage": "https://github.com/puse/puse",
+  "devDependencies": {
+    "duo": "^0.9.2"
+  }
 }
