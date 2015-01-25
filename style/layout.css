@@ -63,6 +63,12 @@
   padding-right: 1.5em;
 }
 
+.container:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
 @media (--break-md) {
   .container {
     width: var(--screen-md);
