@@ -2,11 +2,8 @@ html {
   height: 100%;
 }
 
-header .brand {
-  color: #212933;
-}
-
 .layout-header {
+  background: #f5f6fe;
 }
 
 .layout-body {
