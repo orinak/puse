@@ -246,3 +246,30 @@ sub { bottom: -0.25em; }
 
 
 dfn { font-style: italic; }
+
+
+/*------------------------------------*\
+  #Preformatted text and code
+\*------------------------------------*/
+
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-family-monospace);
+}
+
+pre {
+  margin: 0 0 1em;
+}
+
+code {
+  font-size: .9em;
+  font-weight: normal;
+  color: #000;
+}
+
+pre > code {
+  font: inherit;
+  color: inherit;
+}
