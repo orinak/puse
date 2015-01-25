@@ -1,0 +1,71 @@
+@import "./breakpoints.css";
+
+.layout-footer {
+  padding-top:    1.5em;
+  padding-bottom: 1.5em;
+
+  font-size:        0.85em;
+  color:            #FECEA8;
+  background-color: #2A363B;
+  text-align:       center;
+}
+
+.layout-footer nav {
+  padding-bottom: 1.5em;
+  margin-bottom:  1.5em;
+  border-bottom:  1px solid color(#2A363B lightness(+ 5));
+}
+
+.layout-footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.layout-footer ul li {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0;
+}
+
+.layout-footer a {
+  border: none;
+  color: #E84A5F;
+}
+
+.layout-footer a:hover {
+  border: none;
+  color: #FF847C;
+  text-decoration: underline;
+}
+
+.layout-footer small {
+  font-size: inherit;
+}
+
+@media (--break-md) {
+  .layout-footer {
+    text-align: left;
+  }
+
+  .layout-footer .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -1em;
+  }
+
+  .layout-footer .nav,
+  .layout-footer aside,
+  /* for nested grid */
+  .layout-footer .nav ul {
+    flex: 1;
+    border: 0;
+    margin-left: 1em;
+    margin-bottom : 0;
+    padding-bottom: 0;
+  }
+
+  .layout-footer ul li {
+    display: block;
+    padding-left: 0;
+  }
+}
