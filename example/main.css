@@ -1,14 +1,51 @@
-html {
-  height: 100%;
+.layout-header {
+  background: #fafafb;
+  border-bottom: 1px solid #e9e8e4;
 }
 
-.layout-header {
-  background: #f5f6fe;
+.layout-header .nav a {
+  margin-left:  0.5em;
+  margin-right: 0.5em;
+}
+.layout-header .nav a:first {
+  margin-left: 0;
+}
+.layout-header .nav a:last {
+  margin-right: 0;
 }
 
 .layout-body {
   padding-top:    1.5em;
   padding-bottom: 1.5em;
+}
+
+.layout-footer {
+  font-size: 0.85em;
+  color: #d7d8df;
+  background-color: #2a3433;
+}
+
+.layout-footer ul {
+  margin: 0;
+}
+
+.layout-footer ul li {
+  margin: 0 0 0.5em;
+}
+
+.layout-footer a {
+  color: #e9e8e4;
+  border: none;
+}
+
+.layout-footer a:hover {
+  color: #fafafb;
+  border: none;
+  text-decoration: underline;
+}
+
+.layout-footer small {
+  font-size: inherit;
 }
 
 .demo {
