@@ -30,3 +30,22 @@ header .brand {
     flex: 0 0 12em;
   }
 }
+
+
+.demo {
+  width: 100%;
+  padding: .8em 1em 0;
+  margin-bottom: 1em;
+  background: hsla(31, 15%, 50%, 0.1);
+  border-radius: 3px;
+}
+.grid-cell .grid-cell .demo {
+  margin-bottom: 0;
+}
+
+.demo::after {
+  content: "";
+  display: block;
+  margin-top: 0.8em;
+  height: 1px;
+}
