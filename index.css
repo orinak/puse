@@ -4,3 +4,5 @@
 @import './style/layout.css';
 @import './style/grid.css';
 @import './style/typography.css';
+
+@import './style/header.css';

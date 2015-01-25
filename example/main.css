@@ -1,8 +1,3 @@
-.layout-header {
-  background: #fafafb;
-  border-bottom: 1px solid #e9e8e4;
-}
-
 .layout-header .nav a {
   margin-left:  0.5em;
   margin-right: 0.5em;
@@ -20,9 +15,11 @@
 }
 
 .layout-footer {
+  padding-top:    1.5em;
+  padding-bottom: 1.5em;
   font-size: 0.85em;
-  color: #d7d8df;
-  background-color: #2a3433;
+  color           : #FECEA8;
+  background-color: #2A363B;
 }
 
 .layout-footer ul {
@@ -34,13 +31,13 @@
 }
 
 .layout-footer a {
-  color: #e9e8e4;
   border: none;
+  color: #E84A5F;
 }
 
 .layout-footer a:hover {
-  color: #fafafb;
   border: none;
+  color: #FF847C;
   text-decoration: underline;
 }
 

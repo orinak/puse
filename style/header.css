@@ -1,0 +1,46 @@
+.layout-header {
+  padding-top:    1.5em;
+  padding-bottom: 1.5em;
+
+  background: rgba(147,128,108,.1);
+
+  text-align: center;
+}
+
+.layout-header h1 {
+  margin-bottom: 0;
+  font-size: 2em;
+}
+
+.layout-header h1,
+.layout-header h1 a {
+  color: #E84A5F;
+}
+
+.layout-header h1 small {
+  display: block;
+  padding: 1em;
+  font-size:   0.5em;
+  font-style:  italic;
+  font-weight: 300;
+}
+
+.layout-header a {
+  border: none;
+}
+
+
+@media (--break-md) {
+  .layout-header h1 {
+    float: left;
+  }
+  .layout-header h1 small {
+    display: inline-block;
+    padding: 0;
+  }
+
+  .layout-header .nav {
+    float: right;
+    line-height: 2em;
+  }
+}
