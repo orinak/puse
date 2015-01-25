@@ -10,6 +10,8 @@
 .layout-header,
 .layout-footer {
   flex: none; /* 2 */
+  padding-top:    1.5em;
+  padding-bottom: 1.5em;
 }
 
 .layout-body {
@@ -18,10 +20,7 @@
 }
 
 
-
 .layout-header {
-  padding-top:    1.5em;
-  padding-bottom: 1.5em;
   text-align: center;
 }
 
