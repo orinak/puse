@@ -12,32 +12,25 @@
   flex: none; /* 2 */
 }
 
-/*
-  Solve Holy Grail with flexbox
-*/
 .layout-body {
-  display: flex;
   flex: 1 0 auto; /* 2 */
-  flex-direction: column;
-  padding: 1.5em;
   width: 100%;
-}
-
-@media (--break-lg) {
-  .layout-body {
-    flex-direction: row;
-  }
 }
 
 /*  */
 .container {
   width: 100%;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 @media (--break-md) {
   .container {
     width: var(--screen-md);
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
