@@ -5,3 +5,28 @@ html {
 header .brand {
   color: #212933;
 }
+
+
+.layout-content {
+  margin: 1.5em 0;
+}
+
+.layout-sidebar {
+  padding: 1em;
+  border-radius: 3px;
+  background: rgba(147, 128, 108, 0.1);
+}
+
+@media (min-width: 1024px) {
+  .layout-body {
+    flex-direction: row;
+  }
+  .layout-content {
+    flex: 1;
+    padding: 0 1.5em;
+    margin: 0;
+  }
+  .layout-sidebar {
+    flex: 0 0 12em;
+  }
+}

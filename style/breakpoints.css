@@ -1,0 +1,20 @@
+:root {
+  /* Screen sizes */
+  --screen-lg:    960px;
+  --screen-md:    720px;
+
+  /* Breakpoints */
+  --screen-lg-min: 1024px;
+
+  --screen-md-max: calc(var(--screen-lg-min) - 1);
+  --screen-md-min: 768px;
+
+  --screen-sm-max: calc(var(--screen-md-min) - 1);
+
+}
+
+/* Custom breakpoints */
+
+@custom-media --break-sm (max-width: 767px);
+@custom-media --break-md (min-width: 768px);
+@custom-media --break-lg (min-width: 1024px);
